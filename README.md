@@ -1,4 +1,5 @@
-````git clone https://github.com/saranshsinhaa/next-js-demo.git
+```
+git clone https://github.com/saranshsinhaa/next-js-demo.git
 
 Change dir to the new cloned dir
 
@@ -14,5 +15,6 @@ git add .
 
 git commit -m "commit message"
 
-git push --set-upstream origin branch-name```
-````
+git push --set-upstream origin branch-name
+
+```
