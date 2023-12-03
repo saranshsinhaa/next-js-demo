@@ -7,9 +7,7 @@ import Footer from "@/components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
-    <div
-    className="min-h-screen flex flex-col items-center bg-purple-50"
-   >
+  <div className="min-h-screen flex flex-col items-center bg-purple-50">
   <div className="w-full h-1 bg-violet-500"></div>
   <div className="flex items-center">
         <img
@@ -62,12 +60,12 @@ export default function Home() {
         />
       </div>
       
-        <div className="flex flex-wrap justify-center gap-80 mb-10">
+      <div className="flex flex-wrap justify-center gap-80 mb-10">
         <button className="bg-violet-500 hover:bg-violet-300 text-white font-bold py-2 px-4 rounded">Rs 450</button>
         <button className="bg-violet-500 hover:bg-violet-300 text-white font-bold py-2 px-4 rounded">Rs 500</button>
         <button className="bg-violet-500 hover:bg-violet-300 text-white font-bold py-2 px-4 rounded"> Rs 600</button>
-        </div>
-        <div className="flex flex-wrap justify-center gap-2">
+      </div>
+      <div className="flex flex-wrap justify-center gap-2">
         <img
           src="https://i.pinimg.com/564x/06/e2/5d/06e25d51d09f28e324fde6b757a0e640.jpg"
           style={{ width: '380px', height: '380px' }}
@@ -107,10 +105,8 @@ export default function Home() {
           <p className="mt-4">
           ₊✩‧₊˚౨ৎ˚₊✩‧₊
           </p>
-    
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-xl text-violet-500 font-bold mb-2">₊˚⊹♡ Custom Cakes ₊˚⊹♡</h2>
             <p className="text-gray-700">
@@ -125,7 +121,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md">
+           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-xl text-violet-500 font-bold mb-2">₊˚⊹♡ Catering Services ₊˚⊹♡</h2>
             <p className="text-gray-700">
               Make your events memorable with our catering services. We provide a delectable spread of desserts and pastries to elevate your gatherings and events.
