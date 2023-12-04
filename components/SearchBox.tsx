@@ -30,7 +30,9 @@ export default function SearchBox() {
             <input
                 className="bg-gray-200 p-2 rounded-lg w-70"
                 type="text"
+                color="black"
                 placeholder="City name"
+                style={{ color: "black" }}
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
             />
