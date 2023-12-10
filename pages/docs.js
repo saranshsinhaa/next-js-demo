@@ -1,23 +1,10 @@
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
-
+import background from '../../public/profile.jpg';
 const Docs = () => {
   return (
     <>
-      <div className="my-6">
-        <Navbar />
-      </div>
-      <div className="border-white rounded lg:p-7 p-2 border-2">
-        <h1 className="text-5xl">Docs</h1>
-      </div>
-      <p>Find in-depth information about Next.js features and API.</p>
-      <p className="text-2xl">
-        Learn about Next.js in an interactive course with&nbsp;quizzes!
-      </p>
-      <p>Discover and deploy boilerplate example Next.js&nbsp;projects.</p>
-      <div className="my-6">
-        <Footer />
-      </div>
+    <div className='flex items-center mx-4 pl-20'>
+      <image src="./profile.jpg" alt="profile" width={500} height={500}/>
+    </div>
     </>
   );
 };
