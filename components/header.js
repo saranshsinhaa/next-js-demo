@@ -14,7 +14,7 @@ export default function header() {
             </div>
             <div className="w-96 order-3 flex justify-center">
                 <div className="flex gap-6">
-                    <a className="hover:text-red-800" href="https://www.timeanddate.com/countdown/christmas">CountDown</a>
+                    <a className="hover:text-red-800" href="https://www.timeanddate.com/countdown/christmas">CountDown!</a>
                     <a className="hover:text-red-800" href="https://www.northpole.com/">Santa</a>
                     <a className="hover:text-red-800" href="https://www.christmasmusic.com/">Music</a>
                 </div>
